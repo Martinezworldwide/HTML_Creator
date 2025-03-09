@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML File Creator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>HTML File Creator</h1>
+        <input type="text" id="filename" placeholder="Enter filename (without .html)">
+        <textarea id="htmlCode" placeholder="Write your HTML code here..."></textarea>
+        <button onclick="downloadHTMLFile()">Download .html File</button>
+        <h2>Live Preview</h2>
+        <iframe id="preview"></iframe>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
